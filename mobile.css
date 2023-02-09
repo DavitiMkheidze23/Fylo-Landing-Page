@@ -1,0 +1,374 @@
+@media only screen and (max-width: 375px) 
+{
+.Main-div {
+    width: 375px;
+    height: 2800px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.Header-div {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 25px;
+}
+.Header-img {
+    width: 80px;
+    height: 24px;
+    margin-right: 80px;
+    margin-left: 25px;
+}
+.Header-features {
+    font-family: 'Raleway';
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 12px;
+    color: #07043B;
+}
+.Header-team {
+    font-family: 'Raleway';
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 12px;
+    color: #07043B;
+}
+.Header-sign {
+    font-family: 'Raleway';
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 12px;
+    color: #07043B;
+}
+.First-img{
+    display: none;
+}
+.First-img-mobile {
+    width: 304px;
+    height: 225px;
+    margin-left: 36px;
+    margin-top: 105px;
+}
+.First-div-h1 {
+    width: 303px;
+    height: 108px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #07043B;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 28px;
+}
+.First-div-p {
+    width: 269px;
+    height: 84px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #07043B;
+    text-align: center;
+    margin-left: 36px;
+}
+.Mail-1 {
+    width: 304px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #07043B;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+.Button-1 {
+    width: 304px;
+    height: 40px;
+    border-radius: 3px;
+    border: 0;
+    background-color:#2F65F8;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 42px;
+    margin-top: 16px;
+    cursor: pointer;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+}
+.Head-of-second-div {
+    max-width: 100%;
+    margin-top: 90px;
+}
+.Second-section {
+    width: 100%;
+    height: 950px;
+    background-color: #f8f8fe;
+    margin-top: -4px;
+}
+.Second-img {
+    display: none;
+}
+.Second-img-mobile {
+    width: 320px;
+    height: 241px;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+.Second-div-h1 {
+    width: 260px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #07043B;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 90px;
+}
+.Second-div-p1 {
+    width: 287px;
+    height: 63px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #07043B;
+    margin-left: 20px;
+    margin-top: 24px;
+    text-align: center;
+}
+.Second-div-p2 {
+    width: 287px;
+    height: 63px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #07043B;
+    margin-left: 20px;
+    margin-top: 16px;
+    text-align: center;
+}
+.See-how-p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3DA08F;
+}
+.See-how-div {
+    display: flex;
+    align-items: center;
+    margin-left: 109px;
+    margin-top: 15px;
+}
+.Green-how {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.Line {
+    position: absolute;
+    margin-top: 28px;
+    width: 118px;
+}
+.Kyle-burton-div {
+    width: 280px;
+    height: 170px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-left: 48px;
+    margin-top: 45px;
+    box-shadow: 0px 0px 10px 5px rgb(56 56 56 / 5%);
+}
+.Icon-quotes {
+    margin-left: 26px;
+    margin-top: 26px;
+}
+.Kyle-div-p {
+    width: 210px;
+    height: 70px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    color: #07043B;
+    margin-left: 26px;
+    margin-top: 10px;
+}
+.Kyle-img-div {
+    width: 120px;
+    height: 27px;
+    margin-left: 26px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+}
+.Avatar{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+.Name {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: 0.45px;
+    color: #07043B;
+}
+.Kyle-Position-p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 15px;
+    letter-spacing: 0.36px;
+    color: #07043B;
+}
+.Third-div {
+    width: 375px;
+    height: 345px;
+    background-color: #575988;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 54px;
+    margin-left: 90px;
+    margin-bottom: 16px;
+}
+.Third-div-p {
+    width: 235px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    font-family: 'Open Sans';
+    color: #FFF;
+    margin-left: 48px;
+}
+.Mail-2 {
+    width: 240px;
+    height: 32px;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #07043B;
+    margin-left: 66px;
+    margin-top: 24px;
+}
+.Button-2 {
+    width: 240px;
+    height: 32px;
+    border-radius: 3px;
+    border: 0;
+    background-color:#2F65F8;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    margin-left: 70px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.Mail-div-2 {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    width: 100%;
+    height: 611px;
+    background-color: #07043B;
+}
+.Footer-img {
+    width: 105px;
+    height: 30px;
+    margin-top: 65px;
+    margin-left: 40px;
+}
+.Phone-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 42px;
+}
+
+.Phone-p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+}
+.Icon-p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.Footer-p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFF;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.Phone-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 25px;
+}
+.Mail-icon-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 42px;
+}
+.Footer-middle-div {
+    margin-left: 39px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.Middle-div-1 {
+    margin-bottom: 32px
+}
+.Media-icons-div {
+    margin-top: 32px;
+    margin-left: 140px;
+}
+.mail-sended {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color:  #EF4877;
+    margin-top: 5px;
+    display: none;
+    margin-left: 42px;
+    margin-top: 5px;
+}
+.mail-sended-2 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFF;
+    display: none;
+    margin-left: 70px;
+}
+}

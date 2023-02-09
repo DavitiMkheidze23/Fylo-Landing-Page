@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fylo</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <div class="Main-div">
+        <div class="Header-div">
+            <img class="Header-img" src="logo.svg">
+            <p class="Header-features">Features</p>
+            <p class="Header-team">Team</p>
+            <p class="Header-sign">Sign in</p>
+        </div>
+        <section class="First-div">
+            <img class="First-img-mobile" src="illustration-1.svg">
+            <div class="First-div-info">
+                <h1 class="First-div-h1">All your files in one secure 
+                    location, accessible anywhere.
+                </h1>
+                <p class="First-div-p">Fylo stores your most important files in one secure location.
+                     Access them wherever you need, share and collaborate with friends, family, and co-workers.
+                </p>
+                <div class="Mail-div">
+                    <input type="email" class="Mail-1" placeholder="Enter your email…">
+                    <button class="Button-1">Get Started</button>
+                </div>
+                <p class="mail-sended">Please check your email</p>
+            </div>
+                <img class="First-img" src="illustration-1.svg"> 
+        </section>
+        <img class="Head-of-second-div" src="bg-curve-desktop.svg">
+        <section class="Second-section">
+            <img class="Second-img-mobile" src="illustration-2.svg">
+            <div class="Second-div">
+            <h1 class="Second-div-h1">
+                Stay productive, wherever you are
+            </h1>
+            <p class="Second-div-p1">
+                Never let location be an issu
+                e when accessing your files. 
+                Fylo has you covered for all of your
+                 file storage needs.
+            </p>
+            <p class="Second-div-p2">
+                Securely share files and folders with friends,
+                 family and colleagues for live collaboration.
+                  No email attachments required!
+            </p>
+
+            <div class="See-how-div">
+                <div class="Green-how">
+                    <p class="See-how-p">
+                        See how Fylo works
+                    </p>
+                <img class="Arrow-icon" src="icon-arrow.svg">
+                </div>
+                <img class="Line" src="Rectangle.png" >
+            </div>
+            <div class="Kyle-burton-div">
+                <img class="Icon-quotes" src="icon-quotes.svg">
+                <p class="Kyle-div-p">
+                    Fylo has improved our team productivity
+                     by an order of magnitude. Since making 
+                     the switch our team has become a well-oiled collaboration machine.
+                </p>
+                <div class="Kyle-img-div">
+                    <img class="Avatar" src="avatar-testimonial.jpg" >
+                    <div>
+                        <p class="Name">
+                            Kyle Burton
+                        </p>
+                        <p class="Kyle-Position-p">
+                            Founder & CEO, Huddle
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <img class="Second-img" src="illustration-2.svg"> 
+        </section>
+        <div class="Third-div">
+            <div class="Third-div-info">
+                <h2>
+                    Get early access today
+                </h2>
+                <p class="Third-div-p">
+                    It only takes a minute to sign up and 
+                    our free starter tier is extremely generous.
+                     If you have any questions, our support team would be happy to help you.
+                </p>
+            </div>
+            <div class="Mail-div-2">
+                <input type="email" class="Mail-2" placeholder="email@example.com">
+                <p class="mail-sended-2">Please check your email</p>
+                <button class="Button-2">Get Started For Free</button>
+            </div>
+        </div>
+        <footer>
+            <div class="Footer-info-div">
+                <img class="Footer-img" src="Logo-white.png">
+                <div class="Phone-div">
+                    <img class="Phone-icon" src="icon-phone.svg">
+                    <p class="Phone-p">
+                        Phone: +1-543-123-4567
+                    </p>
+                </div>
+                <div class="Mail-icon-div">
+                    <img class=Mail-icon src="icon-email.svg">
+                    <p class="Icon-p">
+                        example@fylo.com
+                    </p>
+                </div>
+            </div>
+            <div class="Footer-middle-div">
+                <div class="Middle-div-1">
+                    <p class="Footer-p">
+                        About Us
+                    </p>
+                    <p class="Footer-p">
+                        Jobs
+                    </p>
+                    <p class="Footer-p">
+                        Press
+                    </p>
+                    <p class="Footer-p">
+                        Blog
+                    </p>
+                </div>
+                <div class="Middle-div-2">
+                    <p class="Footer-p">
+                        Contact Us
+                    </p>
+                    <p class="Footer-p">
+                        Terms
+                    </p>
+                    <p class="Footer-p">
+                        Privacy
+                    </p>
+                </div>
+            </div>
+            <div class="Media-icons-div">
+                <img class="Media-icons" src="Media-icons.png">
+            </div>
+        </footer>
+    </div>
+    <script>
+        const firstbutton = document.querySelector(".Button-1")
+        const firsttext = document.querySelector(".mail-sended")
+
+        firstbutton.addEventListener ('click', function () {
+            firsttext.style.display = "inline";
+        })
+
+        const secondbutton = document.querySelector(".Button-2")
+        const secondtext = document.querySelector(".mail-sended-2")
+        secondbutton.addEventListener ('click', function (){
+            secondtext.style.display = "inline" ;
+        })
+    </script>
+</body>
+</html>
